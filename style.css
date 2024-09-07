@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .amazonlogo{
@@ -74,9 +75,17 @@
     display: flex;
     justify-content: space-evenly;
     height: 40px;
-    width: 1000px;
+    width: 80rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
     
 }
+
+.searchbar:hover{
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+
 
 .category{
     width: 60px;
@@ -110,4 +119,29 @@
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
 
+}
+
+
+/* third 3 box */
+
+
+span{
+    font-size: 0.75rem;
+}
+
+.acc{
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+/* cart */
+.cart{
+    display: flex;
+}
+.sh{
+    font-size: 1.7rem;
+}
+.na{
+    font-weight: bold;
+    padding-top: 7px;
 }
