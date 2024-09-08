@@ -29,7 +29,7 @@
 .png{
     height: 45px;
     width: 110px;
-    background-image: url("amazon_png.png");
+    background-image: url("img/amazon_png.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 85%; 
@@ -176,10 +176,272 @@ span{
 
 /* main */
 
+.background{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e3e6e6;
+    height: 2000px;
+}
+
 .mainimg{
-    background-image: url("mainimg.jpg");
+    background-image: url("img/mainimg.jpg");
     background-size: cover;
-    width: 100%;
+    width: 80%;
     height: 600px;
+    mask-image: linear-gradient(#000 , #000 , #000 ,rgba(0,0,0,0));
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.heromsg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 77.5%;
+    position: absolute;
+    top: 450px;
+   
+}
+.heromsg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* contant box */
+
+.contantbox{
+    height: 900px;
+    width: 80%;
+    position: absolute;
+    top: 505px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxsize{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+/* box 11111111111111111111111111111 */
+
+.bimg1{
+    background-image: url("img/bigimg1.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box11 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box11 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+
+/* box 22222222222222222222222222222222222222222222222222222222222222221 */
+
+
+   
+
+#only{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.box22 a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+.gosimg p{
+    font-size: 0.85rem;
+}
+
+.gosimg{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+}
+.simg{
+    
+    height: 147px;
+    width: 135px;
+    
+}
+
+/* insidebox */
+.simg1{
+    width: 135px;
+    height: 123px;
+    background-image: url("img/smallimg1.jpg");
+    background-size: cover;
+    background-position: -1.5rem;
 
 }
+.simg2{
+    width: 135px;
+    height: 123px;
+    background-image: url("img/smallimg2.jpg");
+    background-size: cover;
+    background-position: -1.5rem;
+
+}
+.simg3{
+    width: 135px;
+    height: 123px;
+    background-image: url("img/smallimg3.jpg");
+    background-size: cover;
+    background-position: -1.5rem;
+
+}
+.simg4{
+    width: 135px;
+    height: 123px;
+    background-image: url("img/smallimg4.jpg");
+    background-size: cover;
+    background-position: -1.5rem;
+
+}
+
+
+/* box 4444444444444444444444444444444444444444444 */
+
+.bimg2{
+    background-image: url("img/bigimg2.jpg");
+    background-position: -20px;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box44 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box44 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+
+
+/* box 555555555555555555555555555555555555555555555 */
+
+.bimg3{
+    background-image: url("img/bigimg3.jpg");
+    background-position: -20px;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box55 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box55 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+/* box 66666666666666666666666666666666666666666666666666 */
+
+.bimg4{
+    background-image: url("img/bigimg4.jpg");
+    background-position: -20px;
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box66 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box66 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+/* box 777777777777777777777777777777777777777777777777777 */
+
+.bimg5{
+    background-image: url("img/bigimg5.jpg");
+    background-position: -20px;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box77 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box77 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+/* box 888888888888888888888888888888888888888888888888888888 */
+
+.bimg6{
+    background-image: url("img/bigimg6.jpg");
+    background-position: -20px;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+}
+.box88 p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.box88 a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin:1rem;
+    color: green;
+}
+
+
