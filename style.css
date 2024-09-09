@@ -182,7 +182,7 @@ span{
     align-items: center;
     flex-direction: column;
     background-color: #e3e6e6;
-    height: 2000px;
+    height: 1300px;
 }
 
 .mainimg{
@@ -444,4 +444,63 @@ span{
     color: green;
 }
 
+/* fooooooooooooooooooooooottttttttttttttttttteeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrr */
 
+.newcus{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.newcus a{
+    color: green;
+    text-decoration: none;
+}
+#p1{
+    font-size: 0.8rem;
+}
+#p2{
+    font-size: 0.7rem;
+}
+.newcus button{
+    width: 230px;
+    height: 28px;
+    font-weight: bold;
+    background-color: rgb(255, 198, 93);
+    mask-image: linear-gradient( #000 , #000 ,rgba(0,0,0,0.5));
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.backto{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374a5f;
+    font-size: 0.8rem;
+}
+.amazonhelp{
+    height: 400px;
+    background-color: #213041;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.siandco{
+    font-size: 0.9rem;
+    color: rgb(214, 214, 214);
+    margin: 40px;
+}
+.amazonhelp h6{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
